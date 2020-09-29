@@ -229,9 +229,9 @@ hr {
 .tile, .tile .tile-inner {
   width: 85px;
   height: 85px;
-  line-height: 85px; }  
+  line-height: 95px; }  
 
-  tile.tile-position-1-1 {
+.tile.tile-position-1-1 {
   -webkit-transform: translate(0px, 0px);
   -moz-transform: translate(0px, 0px);
   transform: translate(0px, 0px); }
@@ -348,6 +348,14 @@ hr {
     font-weight: bold;
     z-index: 10;
     font-size: 55px; }
+  .tile.tile-super .tile-inner {
+    color: #575f64;
+    background: #f9f2f9;
+    font-size: 12px;
+    box-shadow: 0 0 30px 10px rgba(249, 246, 242, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); /*MAX*/ }
+    @media screen and (max-width: 520px) {
+      .tile.tile-super .tile-inner {
+        font-size: 5px; } }
   .tile.tile-1 .tile-inner {
     background: #eee4da;
     color: #776e65; }
@@ -564,13 +572,133 @@ hr {
     @media screen and (max-width: 520px) {
       .tile.tile-9227465 .tile-inner {
         font-size: 5px; } }
-  .tile.tile-9227465 .tile-inner {
+  .tile.tile-14930352 .tile-inner {
     color: #f9f6f2;
-    background: #ff0000;
-    font-size: 18px;
+    background: #a980bc;
+    font-size: 16px;
+    box-shadow: 0 0 30px 10px rgba(169, 128, 188, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+    @media screen and (max-width: 520px) {
+      .tile.tile-14930352 .tile-inner {
+        font-size: 5px; } }
+  .tile.tile-24157817 .tile-inner {
+    color: #222222;
+    background: #1E90FF;
+    font-size: 16px;
+    box-shadow: 0 0 30px 10px rgba(0, 255, 255, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+    @media screen and (max-width: 520px) {
+      .tile.tile-24157817 .tile-inner {
+        font-size: 5px; } }
+  .tile.tile-39088169 .tile-inner {
+    color: #742542;
+    background: #00ff00;
+    font-size: 16px;
+    box-shadow: 0 0 30px 10px rgba(56, 255, 0, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+    @media screen and (max-width: 520px) {
+      .tile.tile-39088169 .tile-inner {
+        font-size: 5px; } }
+  .tile.tile-63245986 .tile-inner {
+    color: #ffffff;
+    background: #00a251;
+    font-size: 16px;
+    box-shadow: 0 0 30px 10px rgba(0, 255, 0, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+    @media screen and (max-width: 520px) {
+      .tile.tile-63245986 .tile-inner {
+        font-size: 5px; } }
+  .tile.tile-102334155 .tile-inner {
+    color: #f9f6f2;
+    background: #ffa200;
+    font-size: 14px;
+    box-shadow: 0 0 30px 10px rgba(255, 231, 0, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+    @media screen and (max-width: 520px) {
+      .tile.tile-102334155 .tile-inner {
+        font-size: 5px; } }
+  .tile.tile-165580141 .tile-inner {
+    color: #000000;
+    background: #ff00ff;
+    font-size: 14px;
+    box-shadow: 0 0 30px 10px rgba(255, 0, 255, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+    @media screen and (max-width: 520px) {
+      .tile.tile-165580141 .tile-inner {
+        font-size: 5px; } }
+  .tile.tile-267914296 .tile-inner {
+    color: #000000;
+    background: #8000ff;
+    font-size: 14px;
+    box-shadow: 0 0 30px 10px rgba(149, 0, 255, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+    @media screen and (max-width: 520px) {
+      .tile.tile-267914296 .tile-inner {
+        font-size: 5px; } }
+  .tile.tile-433494437 .tile-inner {
+    color: #408000;
+    background: #80ff40;
+    font-size: 14px;
+    box-shadow: 0 0 30px 10px rgba(128, 255, 64, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+    @media screen and (max-width: 520px) {
+      .tile.tile-433494437 .tile-inner {
+        font-size: 5px; } }
+  .tile.tile-701408733 .tile-inner {
+    color: #ff0000;
+    background: #800000;
+    font-size: 14px;
+    box-shadow: 0 0 30px 10px rgba(132, 255, 0, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+    @media screen and (max-width: 520px) {
+      .tile.tile-701408733 .tile-inner {
+        font-size: 5px; } }
+  .tile.tile-1134903170 .tile-inner {
+    color: #000000;
+    background: #0000ff;
+    font-size: 13px;
     box-shadow: 0 0 30px 10px rgba(255, 0, 0, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
     @media screen and (max-width: 520px) {
-      .tile.tile-9227465 .tile-inner {
+      .tile.tile-1134903170 .tile-inner {
+        font-size: 5px; } }
+  .tile.tile-1836311903 .tile-inner {
+    color: #ff80ff;
+    background: #655127;
+    font-size: 13px;
+    box-shadow: 0 0 30px 10px rgba(128, 193, 255, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+    @media screen and (max-width: 520px) {
+      .tile.tile-1836311903 .tile-inner {
+        font-size: 5px; } }
+  .tile.tile-2971215073 .tile-inner {
+    color: #f9f6f2;
+    background: #ff0060;
+    font-size: 13px;
+    box-shadow: 0 0 30px 10px rgba(128, 0, 255, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+    @media screen and (max-width: 520px) {
+      .tile.tile-2971215073 .tile-inner {
+        font-size: 5px; } }
+  .tile.tile-4807526976 .tile-inner {
+    color: #344672;
+    background: #ff80b9;
+    font-size: 13px;
+    box-shadow: 0 0 30px 10px rgba(148, 255, 0, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+    @media screen and (max-width: 520px) {
+      .tile.tile-4807526976 .tile-inner {
+        font-size: 5px; } }
+  .tile.tile-7778742049 .tile-inner {
+    color: #8055ff;
+    background: #000000;
+    font-size: 13px;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 223, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+    @media screen and (max-width: 520px) {
+      .tile.tile-7778742049 .tile-inner {
+        font-size: 5px; } }
+  .tile.tile-12586269025 .tile-inner {
+    color: #776e65;
+    background: #eedae4;
+    font-size: 12px;
+    box-shadow: 0 0 30px 10px rgba(238, 228, 218, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); }
+    @media screen and (max-width: 520px) {
+      .tile.tile-12586269025 .tile-inner {
+        font-size: 5px; } }
+  .tile.tile-20365011074 .tile-inner {
+    color: #000000;
+    background: #6868ff;
+    font-size: 12px;
+    box-shadow: 0 0 30px 10px rgba(0, 0, 255, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.33333); /*MAX*/ }
+    @media screen and (max-width: 520px) {
+      .tile.tile-20365011074 .tile-inner {
         font-size: 5px; } }
 
 @-webkit-keyframes appear {
@@ -826,7 +954,7 @@ hr {
   .tile, .tile .tile-inner {
     width: 45px;
     height: 45px;
-    line-height: 45px; }
+    line-height: 50px; }
   .tile.tile-position-1-1 {
     -webkit-transform: translate(0px, 0px);
     -moz-transform: translate(0px, 0px);
