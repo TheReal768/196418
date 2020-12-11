@@ -4,7 +4,7 @@ function GameManager(size, InputManager, Actuator, StorageManager) {
   this.storageManager = new StorageManager;
   this.actuator       = new Actuator;
 
-  this.startTiles     = 5;
+  this.startTiles     = 25;
 
   this.inputManager.on("move", this.move.bind(this));
   this.inputManager.on("restart", this.restart.bind(this));
@@ -181,8 +181,8 @@ GameManager.prototype.move = function (direction) {
           // Update the score
           self.score += merged.value;
 
-          // The mighty winning tile (121393)
-          if (merged.value === 121393) self.won = true;
+          // The mighty 196418 tile
+          if (merged.value === 196418) self.won = true;
         } else {
           self.moveTile(tile, positions.farthest);
         }
